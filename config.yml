@@ -1,0 +1,71 @@
+# Galaxy Profile Configuration - Vinicius Cantanhede
+
+username: ViniciusCantanhede
+
+profile:
+  name: "Vinicius Cantanhede"
+  tagline: "AI/ML Engineer & MLOps Specialist"
+  company: ""
+  location: ""
+  bio: |
+    Engenheiro de IA/ML construindo sistemas inteligentes em escala.
+    Focado em MLOps, infraestrutura cloud e soluções de Machine Learning em produção.
+  philosophy: '"Da experimentação à produção, com engenharia de excelência."'
+
+social:
+  email: "viniciuscantanhede@gmail.com"
+  linkedin: "vinicius-cantanhede-dos-santos-363a711a3"
+  website: ""
+
+# Galaxy arms - suas áreas de foco
+galaxy_arms:
+  - name: "AI/ML Engineering"
+    color: "synapse_cyan"
+    items:
+      - "Python"
+      - "TensorFlow"
+      - "PyTorch"
+  - name: "MLOps & Cloud"
+    color: "dendrite_violet"
+    items:
+      - "Google Cloud"
+      - "Terraform"
+      - "Docker"
+  - name: "Backend & Data"
+    color: "axon_amber"
+    items:
+      - "Golang"
+      - "SQL"
+      - "Kubernetes"
+
+# Projetos em destaque (ajuste com seus repos reais)
+projects:
+  - repo: "ViniciusCantanhede/galaxy-profile"
+    arm: 0
+    description: "Gerador de perfil GitHub com tema espacial e animações SVG."
+
+# Tema (cores padrão do deep space)
+theme:
+  void: "#080c14"
+  nebula: "#0f1623"
+  star_dust: "#1a2332"
+  synapse_cyan: "#00d4ff"
+  dendrite_violet: "#a78bfa"
+  axon_amber: "#ffb020"
+  text_bright: "#f1f5f9"
+  text_dim: "#94a3b8"
+  text_faint: "#64748b"
+
+stats:
+  metrics:
+    - commits
+    - stars
+    - prs
+    - issues
+    - repos
+
+languages:
+  exclude:
+    - HTML
+    - CSS
+  max_display: 6
